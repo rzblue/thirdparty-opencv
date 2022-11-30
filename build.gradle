@@ -67,6 +67,7 @@ ext {
             '-DBUILD_PERF_TESTS=OFF',
             "-DOPENCV_EXTRA_MODULES_PATH=$rootDir/opencv_contrib/modules/aruco",
             '-DWITH_TBB=ON',
+            '-DBUILD_TBB=ON',
             '-DCMAKE_INSTALL_PREFIX=install'
     ]
 }
