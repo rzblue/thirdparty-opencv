@@ -60,7 +60,7 @@ jobs:
             build-options: "-PskipRelease -PskipSources"
 
     name: "Build - ${{ matrix.artifact-name }}"
-    runs-on: windows-2019
+    runs-on: windows-2022
     steps:
       - uses: actions/checkout@v3
         with:
